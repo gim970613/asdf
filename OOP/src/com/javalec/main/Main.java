@@ -5,6 +5,7 @@ import com.jajvalec.function.A;
 import com.jajvalec.function.B;
 import com.jajvalec.function.C;
 import com.jajvalec.function.D;
+import com.jajvalec.function.Eclass;
 
 public class Main {
 
@@ -22,11 +23,13 @@ public class Main {
 		B b = new B(i,j);
 		C c = new C(i,j);
 		D d = new D(i,j);
+		Eclass e =new Eclass(i,j);
 		
 		a.AAA();
 		b.BBB();
 		c.CCC();
 		d.DDD();
+		e.EEE();
 		System.out.println("123");
 		System.out.println("123");
 		System.out.println("123");
